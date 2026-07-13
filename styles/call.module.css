@@ -1,0 +1,768 @@
+.callPage {
+  background-color: #000;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #000;
+  padding-bottom: 1.25rem;
+  text-align: center;
+  color: #fff;
+}
+
+.announcement {
+  background-color: var(--call-gold);
+  padding: 0.75rem 1.25rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: #000;
+}
+
+.heroContainer {
+  max-width: 64rem;
+  margin: 0 auto;
+  width: 100%;
+  padding: 2.5rem 1.25rem;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--call-gold);
+  background-color: #000;
+  border-radius: 9999px;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--call-gold);
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.eyebrowDot {
+  width: 0.5rem;
+  height: 0.5rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: var(--call-gold);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.title {
+  max-width: 48rem;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.08;
+  word-spacing: -0.02em;
+}
+
+@media (min-width: 640px) {
+  .title {
+    font-size: 1.875rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
+.accent {
+  color: var(--call-gold);
+}
+
+.subheadline {
+  max-width: 48rem;
+  margin: 1.25rem auto 0;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+/* Call Flow */
+.callFlow {
+  min-height: 100vh;
+  background-color: #000;
+  color: #fff;
+}
+
+/* VSL Section */
+.vslSection {
+  max-width: 64rem;
+  margin: 0 auto;
+  width: 100%;
+  padding: 3rem 1.25rem;
+  text-align: center;
+}
+
+.step {
+  display: inline-flex;
+  border-radius: 9999px;
+  background-color: var(--call-gold);
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.videoContainer {
+  margin-top: 1rem;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  border: 2px solid var(--call-gold);
+  background-color: #000;
+  box-shadow: 0 0 28px var(--call-gold-glow);
+}
+
+.videoPlayer {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  display: block;
+}
+
+.vslCta {
+  margin-top: 1.5rem;
+}
+
+.ctaButton {
+  display: inline-flex;
+  min-height: 3rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: var(--call-gold);
+  padding: 0 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
+  box-shadow: 0 10px 25px rgba(161, 133, 75, 0.3);
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.ctaButton:hover {
+  background-color: var(--call-gold);
+  transform: translateY(-2px);
+  box-shadow: 0 15px 35px rgba(161, 133, 75, 0.4);
+}
+
+/* Album Marquee */
+.marquee {
+  overflow-x: hidden;
+  background-color: #000;
+  padding: 4rem 0;
+  color: #fff;
+}
+
+.marqueeHeader {
+  max-width: 80rem;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 1.25rem 2.25rem;
+  text-align: center;
+}
+
+.marqueeEyebrow {
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--call-gold);
+  text-transform: uppercase;
+}
+
+.marqueeTitle {
+  margin-top: 0.75rem;
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .marqueeTitle {
+    font-size: 3rem;
+  }
+}
+
+.marqueeNote {
+  max-width: 48rem;
+  margin: 1rem auto 0;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.marqueeViewport {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.marqueeTrack {
+  display: flex;
+  width: fit-content;
+  gap: 1.25rem;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.albumCard {
+  width: 15rem;
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  border: 1px solid var(--call-gold);
+  background-color: #000;
+}
+
+.albumImage {
+  aspect-ratio: 1;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.albumBody {
+  padding: 1.25rem;
+}
+
+.albumRole {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--call-gold);
+  text-transform: uppercase;
+}
+
+.albumTitle {
+  margin-top: 0.75rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.albumArtist {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  color: var(--call-gold);
+}
+
+.albumStreams {
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Booking Section */
+.booking {
+  max-width: 96rem;
+  margin: 0 auto;
+  width: 100%;
+  padding: 6rem 1.25rem;
+}
+
+.bookingLayout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+@media (min-width: 1024px) {
+  .bookingLayout {
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 3.5rem;
+  }
+}
+
+.bookingStrategy {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .bookingStrategy {
+    position: sticky;
+    top: 2.5rem;
+    padding-top: 2.5rem;
+    text-align: left;
+  }
+}
+
+.bookingTitle {
+  margin-top: 0.75rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .bookingTitle {
+    font-size: 3rem;
+  }
+}
+
+.bookingCopy {
+  margin-top: 1.25rem;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.bookingCta {
+  margin-top: 2rem;
+}
+
+.bookingCalendar {
+  min-height: 42rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--call-gold);
+  background-color: #fff;
+  overflow: hidden;
+  scroll-margin-top: 1.5rem;
+}
+
+.calendlyFrame {
+  height: 42rem;
+  width: 100%;
+  border: none;
+}
+
+/* Strategy Session */
+.strategySession {
+  background-color: #000;
+  padding: 5rem 1.25rem;
+  color: #fff;
+}
+
+.strategyContainer {
+  max-width: 96rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.strategyHeader {
+  max-width: 64rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.kicker {
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--call-gold);
+  text-transform: uppercase;
+}
+
+.strategyTitle {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+  .strategyTitle {
+    font-size: 3rem;
+  }
+}
+
+.strategyGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+@media (min-width: 1024px) {
+  .strategyGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.strategyCard {
+  overflow: hidden;
+  border-radius: 0.75rem;
+  border: 1px solid var(--call-gold);
+  background-color: #000;
+}
+
+.strategyMedia {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-bottom: 1px solid var(--call-gold);
+}
+
+.strategyImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.playIcon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  width: 3.5rem;
+  height: 3.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid var(--call-gold);
+  background-color: rgba(0, 0, 0, 0.85);
+  color: var(--call-gold);
+  font-size: 1.5rem;
+}
+
+.strategyBody {
+  padding: 1.5rem;
+}
+
+.strategyCardTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--call-gold);
+}
+
+.strategyDescription {
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Tory Proof Section */
+.toryProof {
+  max-width: 80rem;
+  margin: 0 auto;
+  width: 100%;
+  padding: 5rem 1.25rem;
+  text-align: center;
+  color: #fff;
+}
+
+.toryTitle {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .toryTitle {
+    font-size: 3rem;
+  }
+}
+
+.toryPosition {
+  margin-top: 1rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--call-gold);
+}
+
+.toryVideo {
+  margin-top: 2.5rem;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  border: 2px solid var(--call-gold);
+  background-color: #000;
+  box-shadow: 0 0 28px var(--call-gold-glow);
+}
+
+.youtubeFrame {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+.toryStats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.stat {
+  border-radius: 0.75rem;
+  border: 1px solid var(--call-gold);
+  padding: 1rem 1.25rem;
+}
+
+.stat strong {
+  display: block;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.stat span {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  color: var(--call-gold);
+}
+
+/* People Proof */
+.peopleProof {
+  padding: 6rem 1.25rem;
+  color: #fff;
+}
+
+.peopleContainer {
+  max-width: 80rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.peopleTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+  .peopleTitle {
+    font-size: 3rem;
+  }
+}
+
+.stars {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 0.08em;
+  color: var(--call-gold);
+}
+
+.subhead {
+  margin-top: 0.75rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.videoGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .videoGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.videoCard {
+  overflow: hidden;
+  border-radius: 0.75rem;
+  border: 1px solid var(--call-gold);
+  background-color: #000;
+}
+
+.testimonialVideo {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  background-color: #000;
+  object-fit: contain;
+  display: block;
+}
+
+.videoBody {
+  border-top: 1px solid var(--call-gold);
+  padding: 1rem 1.25rem;
+}
+
+.videoName {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--call-gold);
+}
+
+.imageGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+@media (min-width: 768px) {
+  .imageGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.imageCard {
+  overflow: hidden;
+  border-radius: 0.75rem;
+  border: 1px solid var(--call-gold);
+  background-color: #000;
+}
+
+.testimonialImage {
+  aspect-ratio: 1;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+
+.testimonialBody {
+  padding: 1.5rem;
+}
+
+.testimonialName {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--call-gold);
+}
+
+.testimonialQuote {
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.profileLink {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--call-gold);
+  text-decoration: underline;
+  text-decoration-offset: 0.25rem;
+}
+
+/* Credits Section */
+.creditsProof {
+  padding: 6rem 1.25rem;
+  color: #fff;
+}
+
+.creditsContainer {
+  max-width: 96rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.creditsTitle {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .creditsTitle {
+    font-size: 3rem;
+  }
+}
+
+.earthgang {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--call-gold);
+  text-transform: uppercase;
+}
+
+.creditsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+@media (min-width: 640px) {
+  .creditsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .creditsGrid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.creditCard {
+  overflow: hidden;
+  border-radius: 0.75rem;
+  border: 1px solid var(--call-gold);
+  background-color: #000;
+}
+
+.creditImage {
+  aspect-ratio: 1;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.creditBody {
+  padding: 1.25rem;
+}
+
+.creditName {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.creditArtist {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  color: var(--call-gold);
+}
+
+.creditsCta {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  background-color: #000;
+  padding: 3rem 1.25rem;
+  text-align: center;
+  border-top: 1px solid rgba(161, 133, 75, 0.2);
+}
+
+.footerContainer {
+  max-width: 80rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.disclaimer {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.disclaimer span {
+  display: block;
+}
