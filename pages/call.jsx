@@ -84,42 +84,42 @@ export default function CallPage() {
             <div className={styles.marqueeViewport}>
               <div className={styles.marqueeTrack}>
                 <AlbumCard
-                  image="https://images.squarespace-cdn.com/content/v1/628fb7e1b67a95179742993c/0ceef519-db00-4d7d-b31a-6e2c4a9cc39b/Screen+Shot+2023-10-31+at+8.50.38+AM.png"
+                  image="/media/albums/you-never-visit-me.png"
                   title="You Never Visit Me"
                   artist="Masego"
                   role="Composer / Producer"
                   streams="9,015,361"
                 />
                 <AlbumCard
-                  image="https://images.squarespace-cdn.com/content/v1/628fb7e1b67a95179742993c/1653670684147-9YQ3M1OYWDHHCVIF2UWN/Self+Control+%2C+YoungBoy+Never+Broke+Again.jpeg"
+                  image="/media/albums/self-control.jpeg"
                   title="Self Control"
                   artist="YoungBoy Never Broke Again"
                   role="Composer"
                   streams="190,546,358"
                 />
                 <AlbumCard
-                  image="https://images.squarespace-cdn.com/content/v1/628fb7e1b67a95179742993c/1653670981085-ZF5348R40AOO9S7U5KON/And+This+Is+Just+The+Intro+%28Live%29+Tory+Lanez.jpeg"
+                  image="/media/albums/and-this-is-just-the-intro.jpeg"
                   title="And This Is Just The Intro (Live)"
                   artist="Tory Lanez"
                   role="Guitar / Producer"
                   streams="11,685,152"
                 />
                 <AlbumCard
-                  image="https://images.squarespace-cdn.com/content/v1/628fb7e1b67a95179742993c/1653671043164-JHFD1ZPD7OWDKACDY07A/Real+Feel+Trippie+Redd.jpeg"
+                  image="/media/albums/real-feel.jpeg"
                   title="Real Feel"
                   artist="Trippie Redd"
                   role="Composer / Producer"
                   streams="38,192,153"
                 />
                 <AlbumCard
-                  image="https://images.squarespace-cdn.com/content/v1/628fb7e1b67a95179742993c/1653671361372-IU2WVN9AZXB5XI9ZWK5T/role-model-blind-interscope.jpeg"
+                  image="/media/albums/blind.jpeg"
                   title="blind"
                   artist="ROLE MODEL"
                   role="Composer / Guitar / Producer"
                   streams="144,399,337"
                 />
                 <AlbumCard
-                  image="https://images.squarespace-cdn.com/content/v1/628fb7e1b67a95179742993c/1653752930529-0UZGSYXM5ZUNT1ML7EWG/Pasadena+Tinashe%2C+Buddy.jpeg"
+                  image="/media/albums/pasadena.jpeg"
                   title="Pasadena"
                   artist="Tinashe / Buddy"
                   role="Composer"
@@ -167,17 +167,17 @@ export default function CallPage() {
               </div>
               <div className={styles.strategyGrid}>
                 <StrategyCard
-                  image="https://storage.googleapis.com/ployai/f2d044ac-086d-4245-9fc0-362ae1b2f109/user/44191b2b-todd-system-breakdown.webp"
+                  image="/media/strategy/breakdown.webp"
                   title="A Personalized Breakdown"
                   description="Todd will review your playing and songs to pinpoint exactly what is keeping you stuck."
                 />
                 <StrategyCard
-                  image="https://storage.googleapis.com/ployai/f2d044ac-086d-4245-9fc0-362ae1b2f109/user/0b47757e-todd-cgm-walkthrough.jpg"
+                  image="/media/strategy/cgm-walkthrough.jpg"
                   title="The Billion-Play System"
                   description="Get a full walkthrough of the same music system behind records with more than a billion Spotify plays."
                 />
                 <StrategyCard
-                  image="https://storage.googleapis.com/ployai/f2d044ac-086d-4245-9fc0-362ae1b2f109/user/df5ee954-todd-system-roadmap.jpg"
+                  image="/media/strategy/system-roadmap.jpg"
                   title="Your 45-Minute Roadmap"
                   description="Leave with a personalized roadmap showing how to finish and release songs in 45 minutes a day."
                 />
@@ -243,27 +243,27 @@ export default function CallPage() {
               </div>
               <div className={styles.imageGrid}>
                 <ImageTestimonial
-                  image="https://images.squarespace-cdn.com/content/v1/628fb7e1b67a95179742993c/065ac1e0-ab3e-4964-9689-a98071c59d0e/Stu+P.jpg"
+                  image="/media/testimonials/stu-p.jpg"
                   name="Stu Partridge"
                   quote="Todd&apos;s fresh approach pushed my playing into another dimension. I&apos;ve never had this much fun learning guitar."
                 />
                 <ImageTestimonial
-                  image="https://images.squarespace-cdn.com/content/v1/628fb7e1b67a95179742993c/5dd09ff9-a7ed-48a9-a446-8fa60cf2f351/Alex+Pic.PNG?format=500w"
+                  image="/media/testimonials/alex-moses.jpg"
                   name="Alex Moses"
                   quote="Todd balances technique, soul, and creativity while helping players refine their own style."
                 />
                 <ImageTestimonial
-                  image="https://images.squarespace-cdn.com/content/v1/628fb7e1b67a95179742993c/63397fcc-80d5-4830-83ba-d932b9c1a220/Maxwell+B.jpg"
+                  image="/media/testimonials/maxwell.jpg"
                   name="MXWLL"
                   quote="The way Todd strings together chords and progressions has been super inspiring for my playing and music."
                 />
                 <ImageTestimonial
-                  image="https://images.squarespace-cdn.com/content/v1/628fb7e1b67a95179742993c/5be3be89-22f5-4a2e-ac5d-6b7e66d21fa9/Andy+M.png?format=500w"
+                  image="/media/testimonials/andrew-m.png"
                   name="Andrew M."
                   quote="Todd helps us discover the awakened feeling of making music and a creative wellspring that makes life feel more alive."
                 />
                 <ImageTestimonial
-                  image="https://images.squarespace-cdn.com/content/v1/628fb7e1b67a95179742993c/3f2327a1-92cb-4105-af3c-bb6673f52ad5/Mark+Pic.jpg"
+                  image="/media/testimonials/mark-lettieri.jpg"
                   name="Mark Lettieri"
                   quote="Todd has a unique, refreshing sound and breaks down his style in a slow, methodical way that&apos;s easy to follow."
                   link="https://www.marklettieri.com/"
@@ -279,27 +279,27 @@ export default function CallPage() {
               <p className={styles.earthgang}>Featuring EARTHGANG</p>
               <div className={styles.creditsGrid}>
                 <CreditCard
-                  image="https://images.squarespace-cdn.com/content/v1/628fb7e1b67a95179742993c/1653671387629-ZRBRSVWBS2KA2L3JXAID/I+Could+Imagine+Alina+Baraz.jpeg"
+                  image="/media/credits/alina-baraz.jpeg"
                   title="I Could Imagine"
                   artist="Alina Baraz"
                 />
                 <CreditCard
-                  image="https://images.squarespace-cdn.com/content/v1/628fb7e1b67a95179742993c/1653671467039-KFY0Z6IAVV80V7MFQ7BA/VICES+Josh+Levi.jpeg"
+                  image="/media/credits/josh-levi.jpeg"
                   title="VICES"
                   artist="Josh Levi"
                 />
                 <CreditCard
-                  image="https://images.squarespace-cdn.com/content/v1/628fb7e1b67a95179742993c/1653752836836-YGA5B2N9FC9AA18VD1JG/Take+Me+Away+%28feat.+EARTHGANG%29+Sin%C3%A9ad+Harnett%2C+EARTHGANG.jpeg"
+                  image="/media/credits/take-me-away.jpeg"
                   title="Take Me Away"
                   artist="Sinéad Harnett / EARTHGANG"
                 />
                 <CreditCard
-                  image="https://images.squarespace-cdn.com/content/v1/628fb7e1b67a95179742993c/1653753019191-Z5D5DZOIYRZW7EBU3ZP3/Hands+On+Trey+Songz.jpeg"
+                  image="/media/credits/hands-on.jpeg"
                   title="Hands On"
                   artist="Trey Songz"
                 />
                 <CreditCard
-                  image="https://images.squarespace-cdn.com/content/v1/628fb7e1b67a95179742993c/1653753080652-K7IDDXUHYZPVLU1AYHBZ/Mcgregor+Anuel+AA.jpeg"
+                  image="/media/credits/mcgregor.jpeg"
                   title="Mcgregor"
                   artist="Anuel AA"
                 />
@@ -330,7 +330,7 @@ export default function CallPage() {
 function AlbumCard({ image, title, artist, role, streams }) {
   return (
     <article className={styles.albumCard}>
-      <img className={styles.albumImage} src={image} alt={`${title} by ${artist} album art`} />
+      <img loading="lazy" className={styles.albumImage} src={image} alt={`${title} by ${artist} album art`} />
       <div className={styles.albumBody}>
         <p className={styles.albumRole}>{role}</p>
         <h3 className={styles.albumTitle}>{title}</h3>
